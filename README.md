@@ -16,9 +16,9 @@ We are proud to announce that our team, **DatAi**, achieved significant recognit
 - **79th internationally** out of 2076 participants.
 - **11th in Malaysia**, showcasing our strong regional performance.
 
-Our model achieved an accuracy of **96.78%**, demonstrating its effectiveness in predicting urban heat patterns.
+   Our model achieved an accuracy of **96.78%**, demonstrating its effectiveness in predicting urban heat patterns.
 
-This accomplishment highlights our team's dedication and expertise in utilizing AI and geospatial analysis to address urban heat challenges. We are excited to continue contributing to innovative solutions for sustainable urban environments.
+   This accomplishment highlights our team's dedication and expertise in utilizing AI and geospatial analysis to address urban heat challenges. We are excited to continue contributing to innovative solutions for sustainable urban environments.
 - **Team Members:**
    - [Ong Yi Yan](https://github.com/ONGYIYAN) - Team Leader
    - [Tang Yan Qing](https://github.com/yan-qing09)

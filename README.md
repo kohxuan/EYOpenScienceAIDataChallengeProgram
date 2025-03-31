@@ -1,4 +1,4 @@
-# 🛰️ Urban Heat Island (UHI) & Geospatial Analysis  
+# 🛰️ Urban Heat Island (UHI) & Geospatial Analysis
 The **Urban Heat Island (UHI) & Geospatial Analysis** project focuses on analyzing satellite imagery and weather data to study urban heat patterns. The notebook utilizes geospatial datasets, machine learning, and remote sensing techniques to assess the impact of land cover and building density on temperature variations.
 <br><br>
 
@@ -9,6 +9,19 @@ The **Urban Heat Island (UHI) & Geospatial Analysis** project focuses on analyzi
 - **Machine Learning Model**: Trains predictive models using `Training_data_uhi_index.csv` and generates benchmark results.
 - **Weather Data Integration**: Incorporates meteorological observations (`NY_Mesonet_Weather.xlsx`) to enhance analysis.
 - **Submission Template**: Provides `Submission_template.csv` for structured model predictions.
+<br>
+
+### 🏆 Results
+We are proud to announce that our team, **DatAi**, achieved significant recognition in the **2025 EY Open Science AI and Data Challenge: Cooling Urban Heat Islands**. Our project was ranked:
+- **79th internationally** out of 2076 participants.
+- **11th in Malaysia**, showcasing our strong regional performance.
+
+Our model achieved an accuracy of **96.78%**, demonstrating its effectiveness in predicting urban heat patterns.
+
+This accomplishment highlights our team's dedication and expertise in utilizing AI and geospatial analysis to address urban heat challenges. We are excited to continue contributing to innovative solutions for sustainable urban environments.
+- **Team Members:**
+   - [Ong Yi Yan](https://github.com/ONGYIYAN) - Team Leader
+   - [Tang Yan Qing](https://github.com/yan-qing09)
 <br>
 
 ### 🛠️ Technical Overview

@@ -1,54 +1,62 @@
-# 🛰️ Geospatial Data Analysis - Satellite Imagery & Building Feature Extraction
-The **Geospatial Data Analysis - Satellite Imagery & Building Feature Extraction** project focuses on processing satellite imagery and geospatial data using Python. It leverages remote sensing techniques to analyze land cover, building footprints, and environmental features using machine learning.
+# 🛰️ Urban Heat Island (UHI) & Geospatial Analysis  
+The **Urban Heat Island (UHI) & Geospatial Analysis** project focuses on analyzing satellite imagery and weather data to study urban heat patterns. The notebook utilizes geospatial datasets, machine learning, and remote sensing techniques to assess the impact of land cover and building density on temperature variations.
 <br><br>
 
 ### ✨ Features
-- **Geospatial Data Processing**: Extracts and processes satellite imagery and vector data.
-- **Building Feature Extraction**: Computes statistics on building density, height, and footprint areas.
-- **Satellite Image Analysis**: Fetches and processes Landsat and Sentinel-2 imagery using cloud-based STAC API.
-- **Median Composite Mosaics**: Generates clear, noise-reduced satellite images for analysis.
-- **Machine Learning Models**: Implements `RandomForestRegressor` for predictive geospatial analysis.
+- **Geospatial Data Processing**: Reads and processes building footprints (`.kml`), weather data (`.xlsx`), and thermal imagery.
+- **Urban Heat Island (UHI) Index Computation**: Analyzes temperature variations using satellite-based Land Surface Temperature (LST).
+- **Building Footprint Analysis**: Extracts spatial features from `.kml` data.
+- **Machine Learning Model**: Trains predictive models using `Training_data_uhi_index.csv` and generates benchmark results.
+- **Weather Data Integration**: Incorporates meteorological observations (`NY_Mesonet_Weather.xlsx`) to enhance analysis.
+- **Submission Template**: Provides `Submission_template.csv` for structured model predictions.
 <br>
 
 ### 🛠️ Technical Overview
-- **Python**: Primary programming language.
-- **geopandas & rasterio**: Geospatial data processing.
-- **xarray & rioxarray**: Satellite image analysis.
-- **pystac_client & planetary_computer**: Accesses cloud-based satellite imagery.
-- **scikit-learn**: Machine learning for predictive modeling.
+- **Python**: Primary language for geospatial and statistical analysis.
+- **geopandas & rasterio**: Handles vector and raster data processing.
+- **xarray & rioxarray**: Processes satellite-derived thermal imagery.
+- **pandas & numpy**: Data wrangling and feature engineering.
+- **scikit-learn**: Machine learning model training and evaluation.
+- **matplotlib & seaborn**: Visualization of UHI patterns.
 <br>
 
 ### 📁 File Structure
+- **Building_Footprint.kml**: Contains spatial information of buildings.
+- **Landsat_LST.ipynb**: Jupyter Notebook for processing Land Surface Temperature data.
+- **NY_Mesonet_Weather.xlsx**: Weather dataset for atmospheric data integration.
+- **Sentinel2_GeoTIFF.ipynb**: Notebook for processing Sentinel-2 imagery.
+- **Training_data_uhi_index.csv**: Dataset used for model training and evaluation.
+- **Submission_template.csv**: Format for submitting results.
+- **UHI Experiment Sample Benchmark.ipynb**: Baseline notebook for UHI model evaluation.
 - **Model.ipynb**: Jupyter Notebook containing the full implementation of data processing, feature extraction, and model training.
-- **output_mosaic.tiff**: Processed median composite of satellite imagery.
-- **building_features.csv**: Extracted building statistics used for modeling.
 <br>
 
 ### 🚀 Getting Started
 1. **Set Up Environment**: Ensure Python and Jupyter Notebook are installed.
 2. **Install Dependencies**: Run the following command:
    ```sh
-   pip install geopandas rasterio xarray pystac_client planetary_computer rioxarray scikit-learn tqdm seaborn matplotlib fiona rtree odc-stac
+   pip install geopandas rasterio xarray pystac_client planetary_computer rioxarray scikit-learn pandas numpy matplotlib seaborn fiona rtree odc-stac
    ```
-3. **Run the Notebook**: Open and execute `Model.ipynb` in Jupyter Notebook to process geospatial data.
+3. **Run the Notebooks**: Open and execute `Landsat_LST.ipynb` and `Sentinel2_GeoTIFF.ipynb` to process geospatial data.
 <br>
 
-### 🛰️ Geospatial Data Sources
-- **Satellite Imagery**: Landsat & Sentinel-2 (retrieved via Microsoft Planetary Computer).
-- **Vector Data**: Building footprints and land-use datasets.
+### 🌍 Data Sources
+- **Satellite Imagery**: Landsat & Sentinel-2 for analyzing land surface temperature.
+- **Building Footprint Data**: Extracted from `.kml` file.
+- **Weather Data**: Meteorological observations from New York Mesonet dataset.
 <br>
 
-### 🔍 Data Processing Steps:
+### 🔍 Analysis Workflow:
 1. **Data Loading:**
-   - Loaded geospatial data using `geopandas` and `rasterio`.
-   - Accessed cloud-based satellite imagery through `pystac_client`.
-2. **Feature Extraction:**
-   - Computed statistics on building footprints and land cover.
-   - Created median composite images from Landsat and Sentinel-2.
+   - Imported geospatial data (`.kml`, `.tiff`, `.csv`, `.xlsx`).
+   - Read weather and satellite imagery datasets.
+2. **Feature Engineering:**
+   - Computed UHI index using LST from Landsat.
+   - Integrated building density and land cover statistics.
 3. **Model Training:**
-   - Used extracted features to train a `RandomForestRegressor`.
-   - Evaluated model performance using `r2_score`.
-4. **Exporting:**
-   - Saved processed satellite imagery as `.tiff` files.
-   - Stored extracted building statistics in `.csv` format.
+   - Built predictive models using `RandomForestRegressor` for temperature forecasting.
+   - Validated model performance with benchmark comparisons.
+4. **Exporting Results:**
+   - Processed predictions stored in `Submission_template.csv`.
+   - Results visualized using GIS and data plotting tools.
 <br>

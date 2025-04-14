@@ -12,8 +12,8 @@ The **Urban Heat Island (UHI) & Geospatial Analysis** project focuses on analyzi
 <br>
 
 ### 🏆 Results
-We are proud to announce that our team, **DatAi**, achieved significant recognition in the **2025 EY Open Science AI and Data Challenge: Cooling Urban Heat Islands**. Our project was ranked:
-- **79th internationally** out of 2076 participants.
+We are proud to announce that our team, **DatAi**, achieved significant recognition in the **2025 EY Open Science AI and Data Challenge: Cooling Urban Heat Islands (External Participants)**. Our project was ranked:
+- **69th internationally** out of 2076 participants.
 - **11th in Malaysia**, showcasing our strong regional performance.
 
    Our model achieved an accuracy of **96.78%**, demonstrating its effectiveness in predicting urban heat patterns.

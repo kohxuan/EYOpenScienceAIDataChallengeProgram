@@ -26,7 +26,7 @@ We are proud to announce that our team, **DatAi**, achieved significant recognit
 <br>
 
 ### ⭐ Status & Recognition 
-*   Received a [Participation Certificate](https://github.com/kohxuan/EYOpenScienceAIDataChallengeProgram/blob/main/docs/Certificate.pdf) for the involvement in the challenge.
+*   Received a [Participation Certificate](https://github.com/kohxuan/EYOpenScienceAIDataChallengeProgram/blob/main/docs/Certificate.pdf) for the completion of the challenge.
 <br>
 
 ### 🛠️ Technical Overview

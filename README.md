@@ -22,6 +22,11 @@ We are proud to announce that our team, **DatAi**, achieved significant recognit
 - **Team Members:**
    - [Ong Yi Yan](https://github.com/ONGYIYAN) - Team Leader
    - [Tang Yan Qing](https://github.com/yan-qing09)
+   - [Koh Su Xuan](https://github.com/kohxuan)
+<br>
+
+### ⭐ Status & Recognition 
+*   Received a [Participation Certificate](https://github.com/kohxuan/EYOpenScienceAIDataChallengeProgram/blob/main/docs/Certificate.pdf) for the involvement in the challenge.
 <br>
 
 ### 🛠️ Technical Overview
